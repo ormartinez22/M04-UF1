@@ -1,0 +1,82 @@
+{
+"students":{
+    "student":[
+        {
+             "name":"Oriol",
+             "surname":"Martinez",
+             "email":"omartinez@jaumebalmes.net",
+             "dni":"35435453X",
+             "curs": "DAM1"
+
+        },
+
+        {
+            "name":"Jordi",
+            "surname":"Camara",
+            "email":"jcamara@jaumebalmes.net",
+            "dni":"24534545G",
+            "curs":"DAM2"
+
+        },
+
+         {
+            "name":"Aqedaat",
+            "surname":"Ghulam",
+            "email":"Aghulam@jaumebalmes.net",
+            "dni":"45353654R",
+            "curs":"DAUU1"
+
+         },
+
+         {
+           "name":"Xavier",
+           "surname":"Comenes",
+           "email":"Xcomenes@jaumebalmes.net",
+           "dni":"43454344E",
+           "curs":"ASIX1"
+         },
+         {
+           "name":"Iker",
+           "surname":"Casillas",
+           "email":"Icasillas@jaumebalmes.net",
+           "dni":"43454344E",
+           "curs":"ASIX2"
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  ]
+   
+
+
+
+  
+
+
+
+
+
+
+
+}
+
+
+
+}
