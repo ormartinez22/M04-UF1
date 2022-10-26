@@ -1,54 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<agenda>
-    <persona>
-          <nom>Oriol</nom>
-          <cognom>Martinez</cognom>
-          <direccio>Balmes</direccio>
-          <telefon>
-              <casa>934228765</casa>
-              <treball>611188943<treball>
-              <mobil>67878988<mobil/>
-          </telefon>
-          <pais>Canada</pais>
-    </persona>
-    <persona>
-          <nom>Carlos</nom>
-          <cognom>Rodriguez</cognom>
-          <direccio>Pau Claris</direccio>
-          <telefon>
-              <casa>938886677</casa>
-              <treball>677999222</treball>
-              <mobil>677222333</mobil>
-          <pais>Alemanya</pais>
-    </persona>
-    <persona>
-            <nom>Sergi</nom>
-            <cognom>Arias</cognom>
-            <direccio>Gran Via</direccio>
-            <telefon>
-                <casa>936663399</casa>
-                <treball>654321999</treball>
-                <mobil>677333999</mobil>
-            <pais>Espanya</pais>
-    </persona>
-    <persona>
-        <nom>Alex</nom>
-        <cognom>Bellido</cognom>
-        <direccio>Sarria</direccio>
-        <telefon>
-            <casa>938762345</casa>
-            <treball>619777333</treball>
-            <mobil>634999221</mobil>
-        <pais>Bulgaria</pais>
-    </persona>
-    <persona>
-        <nom>Jaume</nom>
-        <cognom>Anta</cognom>
-        <direccio>Sepulveda</direccio>
-        <telefon>
-            <casa>938710145</casa>
-            <treball>619991333</treball>
-            <mobil>634456221</mobil>
-        <pais>Dinamarca</pais>
-    </persona>
-</agenda>
+<students>
+    <student curs = "DAM1">
+        <name>Oriol</name>
+        <surname>Martinez</surname>
+        <email>omartinez@jaumebalmes.net</email>
+        <dni>35435453X</dni>
+    </student>
+    <student curs = "DAM2">
+        <name>Jordi</name>
+        <surname>Camara</surname>
+        <email>jcamara@jaumebalmes.net</email>
+        <dni>24534545G</dni>
+    </student>
+    <student curs = "DAW1">
+        <name>Aqedaat</name>
+        <surname>Ghulam</surname>
+        <email>Aghulam@jaumebalmes.net</email>
+        <dni>45353654R</dni>
+    </student>
+    <student curs = "ASIX1">
+        <name>Xavier</name>
+        <surname>Comenes</surname>
+        <email>Xcomenes@jaumebalmes.net</email>
+        <dni>34534544R</dni>
+    </student>
+    <student curs = "ASIX2">
+        <name>Iker</name>
+        <surname>Casillas</surname>
+        <email>Icasillas@jaumebalmes.net</email>
+        <dni>43454344E</dni>
+    </student>
+</students>
+    
