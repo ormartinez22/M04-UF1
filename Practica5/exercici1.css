@@ -1,0 +1,14 @@
+/*Pinta en color el fons del títol de la taula definit com a paràfraf*/
+p{
+    background: orange;
+}
+/*Crea un marc de 3 píxels de grossor en posició fixe al voltant del cos del document*/
+body{
+    position: fixed;
+    border: 3px solid blue;
+}
+/*Pinta en color el text entre les etiquetes table*/
+table{
+    color: green;
+    
+}
