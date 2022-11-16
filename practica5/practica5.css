@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+table , th , td {
+   border: 1px solid black ;
+   border-collapse: collapse;
+}
+caption {
+    color:blue;
+    text-align: center;
+}
+.tr1{
+   background-color: gray;
+
+}
