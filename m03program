@@ -1,0 +1,11 @@
+public boolean only14(int[] nums) {
+    int i=0;
+    boolean result=false;
+    while(i<nums.length && !result){
+      result=(nums[i]!=1 && nums[i]!=4);
+      if (!result){
+        i++;
+      }
+    }
+    return !result;
+  }
