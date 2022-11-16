@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>PartB</title>
+      <meta charset ="utf-8">
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--creating the form-->
+        <form>
+            <!--personal information-->
+            <label for="Name">Name</label><br>
+            <input type="text" name="name" placeholder="your name" id="name"><br>
+            <label for="Surname">Surname</label><br>
+            <input type="text" name="surname" id="Surname" placeholder="your surname"><br>
+            <label for="Age">Age</label><br>
+            <input type="text" name="Age" id="Age" placeholder="20"><br>
+            <!--Study information-->
+            <p>Cycle you want to study next year:</p><br>
+            <label for="DAM">DAM</label>
+            <input type="radio" id="DAM" name="cycle"  value="DAM" checked><br>
+            <label for="ASIX">ASIX</label>
+            <input type="radio" id="ASIX" name="cycle"  value="ASIX"><br>
+            <label for="Other">Other...</label>
+            <input type="radio" id="Other" name="cycle"  value="Other"><br>
+            <!--Hobbies-->
+            <p>Mark your hobbies:</p>
+            <label for="Study">Study</label>
+            <input type="checkbox" name="Study"  id="Study" checked><br>
+            <label for="ASIX">ASIX</label>
+            <input type="checkbox" name="ASIX"  id="ASIX"><br>
+            <label for="Magic Play">Magic Play</label>
+            <input type="checkbox" name="Magic Play"  id="Magic Play"><br>
+            <label for="Books">Books</label>
+            <input type="checkbox" name="Books"  id="Books"><br>
+            <label for="Borred">Borred</label>
+            <input type="checkbox" name="Borred"  id="Borred"><br>
+            <!--specify other hobbies-->
+            <label for="Others">Others</label><br>
+            <textarea name="Specify which ones" id="Specify which ones" cols="50" rows="10">Specify which ones</textarea><br>
+            <!--favourite HTML options-->
+            <label for="HTML standard i like the most">HTML standard i like the most:</label>
+            <select name="HTML" id="HTML">
+                <option value="HTML4.01">HTML4.01</option>
+                <option value="XHTML1.0">XHTML1.0</option>
+                <option value="HTML5" selected>HTML5</option>
+            </select>
+         </form>
+    </body>
+</html>
