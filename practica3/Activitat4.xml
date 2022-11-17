@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+    <book>
+        <title>Cuentos de terramar</title>
+        <publisher>Ibrea</publisher>
+        <cover>tapa blanda</cover>
+        <price>13.95</price>
+    </book>
+    <book>
+        <title>GUNNM: Last Order</title>
+        <publisher>Ibrea</publisher>
+        <cover>tapa blanda</cover>
+        <price>9.90</price>
+    </book>
+    <book>
+        <title>El guardian entre el centeno</title>
+        <publisher>Panini</publisher>
+        <cover>tapa dura</cover>
+        <price>23.50</price>
+    </book>
+    <book>
+        <title>Canción de yelo y fuego</title>
+        <publisher>Panini</publisher>
+        <cover>tapa dura</cover>
+        <price>29.80</price>
+    <book>
+</bookstore>
