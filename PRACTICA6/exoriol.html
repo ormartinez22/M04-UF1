@@ -1,0 +1,52 @@
+<!--declaració que defineix el document-->
+<!DOCTYPE html>
+<!--defineix el document html-->
+<html>
+    <head> <!--element que conté meta informació de la pàgina-->
+        <meta charset="utf-8">
+        <title>Exercici</title><!--Títol del document-->
+    </head>
+
+    <body>
+        <!--Etiqueta control de formulari-->
+        <label>Nom:</label>
+        <!--Input-element que permet escriure informació a l'usuari-->
+        <input type="text" id="name" name="name" value="el teu nom"><br><br>
+        <!--Etiqueta control de formulari-->
+        <label>Cognom:</label>
+        <!--Input-element que permet escriure informació a l'usuari-->
+        <input type="text" id="surname" name="surname" value="el teu cognom"><br><br>
+        <!--Etiqueta control de formulari-->
+        <label>Edat:</label>
+        <!--Input-element que permet escriure informació a l'usuari-->
+        <input type="text" id="age" name="age" value="20"><br><br>
+
+        <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+        <!--checkbox-element entrada en forma casella verificació-->
+        
+        <label>DAM<input type="radio" id="html" name="cc" value="nom" checked></label><br>
+        <label>ASIX<input type="radio" id="html" name="cc" value="nom"></label><br>
+        <label>Altre...<input type="radio" id="html" name="cc" value="nom"></label><br><br>
+
+        <p>Marca les teves aficions:</p>
+        <!--Etiquetes control de formulari-->
+        <label>Estudiar<input type="checkbox" checked></label><br>
+        <label>ASIX<input type="checkbox"></label><br>
+        <label>Llibres<input type="checkbox"></label><br>
+        <label>Jugar a Magic<input type="checkbox"></label><br>
+        <label>Fer burilles<input type="checkbox"></label><br>
+    
+        <p>Altres</p>
+        <div>
+        <textarea class="message" rows="10" cols="50">Especifica quines</textarea>
+        </div><br>
+        <label for="message">L'estàndard d'HTML que més m'agrada:</label>
+        <!--select-element que defineix llista desplegable-->
+        <!--textarea-element que defineix un camp amb multilínies-->
+        <select id="textarea" name="textarea"> 
+            <option value="html4.01">HTML 4.01</option>
+            <option value="xhtml1.0">XHTML 1.0</option>
+            <option selected value="html5">HTML5</option>
+        </select>
+    </body>
+</html>
