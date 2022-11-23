@@ -1,0 +1,37 @@
+#BlueRectangle{
+    /*designing of blue*/
+    top: 40px;
+    margin-left: 20px;
+    background-color: blue;
+    z-index: 1;
+}
+#RedRectangle,#BlueRectangle{
+    /*measures of outer rectangles*/
+position: relative;
+width: 160px;
+height: 120px;
+}
+#RedRectangle{
+    /*designing of red*/
+   top: 20px;
+   margin-left: 100px;
+   background-color: red;
+}
+#YellowRectangle{
+    /*designing of yellow*/
+    bottom: 60px;
+    margin-left: 20px;
+    background-color: yellow;
+}
+#GreenRectangle,#YellowRectangle{
+    /*measures of inner rectangles*/
+height: 40px;
+width: 40px;
+position: absolute;
+}
+#Greenrectangle{
+    /*designing of green*/
+    top: 60px;
+    margin-left: 100px;
+    background-color: green;
+}
