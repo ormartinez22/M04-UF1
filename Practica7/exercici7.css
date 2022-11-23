@@ -1,0 +1,37 @@
+/*Aquest document edita longitud, amplada, marges i paddings dels divs 
+(pares i fills) de la pàgina web*/
+
+/*La posició absoluta es controla amb top, right, bottom i left*/
+/*Posició relativa depèn del element que el conté*/
+.quadratGroc{
+    position: relative;
+    background-color: yellow;
+    top: 40px;
+    left: 20px;
+    width: 160px;
+    height: 120px;
+}
+.quadratBlau{
+    position: absolute;
+    background-color: blue;
+    left: 20px;
+    bottom: 60px;
+    width: 40px;
+    height: 40px;
+}
+.quadratVerd{
+    position: absolute;
+    background-color: green;
+    top: 140px;
+    left: 100px;
+    width: 160px;
+    height: 120px;
+}
+.quadratVermell{
+    position: relative;
+    background-color: red;
+    top: 60px;
+    left: 100px;
+    width: 40px;
+    height: 40px;
+}
