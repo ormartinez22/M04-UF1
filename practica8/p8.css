@@ -1,0 +1,113 @@
+header{
+    text-align: right;
+    font-family: "Arial";
+    color:black;  
+}
+.Img{
+    margin-left: 10px;
+}
+button{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 102, 255, 0.911);
+    height: 36px;
+    width: 137px;
+    font-size: 14px;   
+}
+.footer{
+    margin:auto;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+}
+
+.Google{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-top: 90px;
+    font-size: 55px;
+}
+.lletra1{
+    color:rgba(0, 102, 255);
+}
+.lletra2{
+    color:rgb(255, 0, 0);
+}
+.lletra3{
+    color:rgb(250, 250, 0);
+}
+.lletra4{
+    color:rgba(0, 102, 255);
+}
+.lletra5{
+    color:rgb(0, 255, 0);
+}
+.lletra6{
+    color:rgba(250, 0, 0);
+}
+.cont{
+    display: flex;
+    flex-direction:row;   
+    font-family: "Arial";   
+    justify-content:center;
+     
+}
+.ee{
+    margin-left: 50px;
+}
+.div_container1{
+    display: flex;
+    padding-top: 12px;
+    padding-left: 30px;
+    border: 1px solid rgb(203, 205, 206);
+    font-family: "Arial";
+    background-color: rgba(240, 240, 240, 0.726);
+    border-top-color: rgba(240, 248, 255, 0.397);
+    border-left-color: rgba(240, 248, 255, 0.397);
+    border-right-color: rgba(240, 248, 255, 0.397);
+    margin-left: 0px;
+    height:32px;
+    
+    color: rgb(128, 130, 131);
+}
+.div_container2{
+    display: flex;
+    background-color: rgba(234, 240, 231, 0.692);
+    font-family: "Arial";
+    height: 32px;
+    padding-top: 10px;
+    margin-left: 0px;
+    padding-left: 20px;     
+}   
+
+.Priv{
+    margin-left: 1330px;
+    color: rgb(128, 130, 131);
+}
+.Inf{
+    margin-left: 10px;
+    color: rgb(128, 130, 131);
+}
+.Conf{
+    margin-left: 10px;
+    color: rgb(128, 130, 131);
+}
+.Cond{
+    margin-left: 10px;
+    color: rgb(128, 130, 131);
+}
+.Publ{
+    margin-left:10px;
+    color: rgb(128, 130, 131);
+}
+.Emp{
+    margin-left: 10px;
+    color: rgb(128, 130, 131);
+}
+
