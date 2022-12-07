@@ -1,0 +1,33 @@
+
+.div_container{
+    display: flex;
+    flex-flow: row;
+    border: 2px dotted black;
+    align-items: center;
+    justify-content: end;
+    padding: 6px;
+    border: 6px;
+    margin: 6px;
+}
+.div_item1{
+   padding-top:auto;
+   margin-left:auto;
+    justify-items:end;
+}
+.div_item2{
+    padding: auto;
+    margin: auto;
+    justify-items:end;
+}
+.div_item3{
+    padding: auto;
+    margin: auto;
+    justify-items:end;
+}
+.div_item4{
+    padding: auto;
+    margin: auto;
+    justify-items:end;
+}
+
+
