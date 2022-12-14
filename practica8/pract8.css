@@ -1,0 +1,150 @@
+/*Document CSS que edita el HTML al qual esta referenciat*/
+
+/* Selectors: 
+   Sense punt --> sobre un element
+   Amb punt --> sobre una classe*/ 
+   header{
+    font-family: "Arial";
+    color:black; 
+    font-size: 13px;
+    margin-top: -8px;   
+}
+.Sgoogle, .Tienda{
+    margin-left: 12px; /*Marge cap a fora*/
+    padding-left: 12px; /*Marge cap a dins*/
+    padding-top: 15px;
+    color:black;
+}
+.Gmail{
+    color:black;
+    margin-left: 1410px;
+    padding-top: 1px;
+}
+.Imagenes{
+    color:black;
+    margin-left: 12px;   
+}
+.Img1{
+    height: 25px;
+    width: 25px;
+    padding-top: 16px;
+    margin-left: 20px;   
+}
+.ISessio{
+    text-align: center; /*Situa el text al centre de la botonera*/
+    margin-left: 12px;
+    margin-top: -5px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(0, 102, 255, 0.911);
+    height: 36px;
+    width: 137px;
+    font-size: 14px;   
+}
+.Google{
+    font-family: 'Open-Sans', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-weight: 100; 
+    margin-top: -50px;
+    font-size: 46px;
+}
+.lletra1, .lletra4{
+    color:rgba(0, 102, 255);
+      
+}
+.lletra2{
+    color:rgb(224, 14, 14);       
+}
+.lletra3{
+    color:rgb(226, 212, 6);
+}
+.lletra5{
+    color:rgb(11, 172, 11);
+}
+.lletra6{
+    color:rgb(224, 14, 14);
+    transform: rotate(-20deg); 
+}
+.Fotos{margin-top: 15px;
+    display: flex;
+    flex-direction:row; /*Indica la direcció dels items dintre del div*/  
+    justify-content:center; /*Alinea element del contenidor al centre*/    
+}
+.Info{
+    display: flex;
+    flex-direction:row; 
+    margin-top: 20px;  
+    font-family: "Arial";  
+    justify-content:center; /*Alinea element del contenidor al centre*/    
+}
+/*He elegit el tamany de les imatges seguint una proporció aproximada 
+ de l'alçada/amplada de les dimensions originals*/
+.Img3{      
+    height: 150px;
+    width: 123px;   
+}
+.Img4{
+    margin-left: 270px;
+    height: 150px;
+    width: 123px;
+}
+
+.Oriol{
+    margin-left: 50px;
+}
+.footer{
+    /*La posició absoluta es controla amb top, right, bottom i left*/ 
+    position: absolute; 
+    bottom: 0%; 
+    width: 100vmax;   
+}
+.div_container1{   
+    display: flex;
+    padding-top: 16px;
+    padding-left: 30px;
+    border: 1px solid rgb(203, 205, 206);
+    font-family: "Arial";
+    font-size: 14px;
+    background-color: rgba(240, 240, 240, 0.726);
+    border-top-color: rgba(240, 248, 255, 0.397);
+    border-left-color: rgba(240, 248, 255, 0.397);
+    border-right-color: rgba(240, 248, 255, 0.397);  
+    height:32px;  
+    color: rgb(128, 130, 131);
+}
+.div_container2{      
+    background-color: rgba(240, 240, 240, 0.726);
+    font-family: "Arial";
+    height: 32px;
+    padding-bottom: 25px;
+    font-size: 14px;
+    padding-left: 0px; 
+    align-items: center;   
+}   
+.Img2{
+    height: 22px;
+    width: 22px;
+    margin-left: 430px;
+    margin-top: 16px;
+}
+.Priv{   
+    margin-left: 495px;
+    color: rgb(128, 130, 131);
+}
+
+.Term, .Conf{
+    margin-left: 30px;
+    color: rgb(128, 130, 131);
+}
+
+.Emisio{
+    color: rgb(128, 130, 131);
+}
+.Publ, .Emp, .Busq{   
+    margin-left: 30px;
+    color: rgb(128, 130, 131);
+}
+
